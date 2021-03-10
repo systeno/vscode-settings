@@ -11,3 +11,11 @@
 #workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element > div.tabs-container > div.tab {
   flex-grow: 1;
 }
+
+#workbench\.parts\.titlebar > a  {
+  display: none;
+}
+
+#status\.host {
+  background-color: rgba(82, 139, 255, 0.20) !important;
+}

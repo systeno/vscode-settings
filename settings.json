@@ -40,12 +40,12 @@
         "files.trimFinalNewlines": true
     },
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "Atomica",
     "extensions.autoUpdate": false,
     "elixirLS.mixEnv": "dev",
     "vscode_custom_css.imports": [
 
-        "file:///home/till/.vscode_custom_styles.css"
+        "file:///home/till/.config/Code/vscode_custom_styles.css"
     ],
     "workbench.activityBar.visible": false,
     
