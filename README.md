@@ -25,3 +25,6 @@ I recomend to put the `vscode_custom_styles.css` inside the vscode config folder
 **Note:** Since the custom css extension changes some unexpected parts of the programm. VS Code may complain about broken files.
 The best way to solve this is to tell vscode not to bother you again :).
 
+### Theme
+
+The theme I am using can be found at: [https://github.com/systeno/atomica](https://github.com/systeno/atomica).
