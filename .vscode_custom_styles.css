@@ -1,0 +1,13 @@
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.editor-actions {
+  display: none;
+}
+#workbench\.parts\.sidebar > div.composite.title > div.title-actions {
+  display: none;
+}
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element > div.tabs-container > div.tab .tab-label {
+  flex: 0 !important;
+  margin: 0 auto; 
+}
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element > div.tabs-container > div.tab {
+  flex-grow: 1;
+}
