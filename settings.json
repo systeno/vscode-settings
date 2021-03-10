@@ -1,0 +1,52 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 18,    
+    "editor.mouseWheelZoom": true,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 25,
+    "editor.fontWeight": "400",
+    "editor.letterSpacing": 0.5,
+    "workbench.editor.showTabs": true,
+    "terminal.integrated.fontFamily": "JetBrainsMonoMedium Nerd Font",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "window.zoomLevel": 0,
+    "explorer.openEditors.visible": 0,
+    "window.menuBarVisibility": "classic",
+    "workbench.editor.enablePreview": false,
+    "workbench.statusBar.visible": true,
+    "editor.tabSize": 2,
+    "editor.suggestSelection": "first",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.associations": {
+        "*.j2": "shellscript"
+    },
+    "[elixir]": {
+    
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.wordBasedSuggestions": false,
+        "editor.formatOnType": true,
+        "editor.trimAutoWhitespace": false,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro",
+    "extensions.autoUpdate": false,
+    "elixirLS.mixEnv": "dev",
+    "vscode_custom_css.imports": [
+
+        "file:///home/till/.vscode_custom_styles.css"
+    ],
+    "workbench.activityBar.visible": false,
+    
+}

@@ -1,0 +1,4 @@
+be5invis.vscode-custom-css
+ecmel.vscode-html-css
+JakeBecker.elixir-ls
+PKief.material-icon-theme
