@@ -1,21 +1,30 @@
+/* This removes the buttons on the top right, next to the tabs. All of their functionality can be found right clicking a folder/file or using ctrl + shift + p. */
 #workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.editor-actions {
   display: none;
 }
+
+/* This removes the buttons on top of the Explorer view. All of their functionality can be found right clicking a folder/file or using ctrl + shift + p. */
 #workbench\.parts\.sidebar > div.composite.title > div.title-actions {
   display: none;
 }
+
+/* Causes the name of the tabs to be centered. */
 #workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element > div.tabs-container > div.tab .tab-label {
   flex: 0 !important;
   margin: 0 auto; 
 }
+
+/* This causes the tabs to expand and fill the tab bar. */
 #workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element > div.tabs-container > div.tab {
   flex-grow: 1;
 }
 
+/* Removes the vs code logo on the top right. */
 #workbench\.parts\.titlebar > a  {
   display: none;
 }
 
+/* Changes the color of the WSL sign on the bottom left. The sign is only seen, when vscode is started from WSL. */
 #status\.host {
   background-color: rgba(82, 139, 255, 0.20) !important;
 }
