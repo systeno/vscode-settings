@@ -22,6 +22,8 @@ You need to reference the `vscode_custom_styles.css` file in your `settings.json
 To do this set `"vscode_custom_css.imports": ["file:///path/to/vscode_custom_styles.css"]` inside the `settings.json` to the desired location. 
 I recomend to put the `vscode_custom_styles.css` inside the vscode config folder: `$HOME/.config/Code/vscode_custom_styles.css`.
 
+You also need to give yourself write access to the vscode files: `sudo chown -R $(whoami) /usr/share/code`. The location of you vscode may differ.
+
 **Note:** Since the custom css extension changes some unexpected parts of the programm. VS Code may complain about broken files.
 The best way to solve this is to tell vscode not to bother you again :).
 
